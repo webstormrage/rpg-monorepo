@@ -1,0 +1,121 @@
+LADY AMMALIA CASSALANTER 
+Lady Cassalanter reacts with surprise to the sight of 
+uninvited guests, but quickly conceals her feelings with 
+a welcoming smile. She attempts to gain the intruders' 
+confidence by pretending to believe that they are guests 
+ofVicto ro's and saying that she simply was not told of 
+their presence. With this pretense estab lished, she tries 
+to lea rn the characters' true intentions, cast ing charm 
+person on the party using a 5th-level spell slot (affecting 
+up to five creatures within 30 feet) if necessary. Using 
+magic in this way is illegal, but Ammalia has a lot of 
+goodwill banked in Waterdeep - enough to curry favor 
+with a magistrate. 
+During the hours when Ammalia is home and awake. 
+her location in the villa can be determined randomly: 
+dl 00 Ammalia's Location 
+01- 70 She's tending to her butterfly garden {area C25). 
+71 - 90 She's smoking on the balcony (area C25a). 
+91- 00 She's weeping before Osvaldo in the attic 
+{area C24). 
+LORD VrcTORO CASSALANTER 
+Victoro Cassalanter reacts with fiery rage to the sight of 
+uninvited guests. He demands to know their names and 
+calls for the butler, Willifort Crowelle, to show them out. 
+If he has the chance, he subtly casts dominate person 
+on one of the characters using an 8th-level spe ll slot 
+(extending its duration to 8 hours) to plant a spy among 
+their ranks. As soon as the intruders are gone, he retires 
+to his office (area C6) and uses his action to take tota l 
+control of the dominated character. The dominated char­
+acter report s to the City Watch that the party broke into 
+Cassalanter Villa and must be arrested for their crime. 
+During the hours when Victoro is home and awake, 
+his location in the villa can be determined randomly: 
+dl 00 Victoro's Location 
+01-70 He's in his office (area C6). 
+71- 90 He's in the reading room (area C4). 
+91- 00 He's with Ammalia at one of the three locations 
+mentioned above. 
+(ASSALANTER LORE 
+A successful DC 15 Intelligence (History) check reveals 
+the following information about CassalanterYilla and its 
+inhabitants: 
+• The Cassalanters fell on hard times a few years back, but 
+they have since reversed their fortunes and restored their 
+lucrative banking and money-lending business. 
+• Victoro and Ammalia's eldest son disappeared three 
+years ago when the family was on the verge of bank· 
+ruptcy. They have two surviving children, young twins 
+named Terenzio and Elzerina. 
+• Lord Victoro Cassalanter is the only living heir of the late 
+Caladorn Cassalanter, a former Masked Lord and a hero 
+of the North. 
+• Over the years, the Cassalanters have founded a number 
+of philanthropic societies and made generous donations 
+to temples dedicated to good-aligned deities. They are 
+known to worship Siamorphe, a demigod whose ethos is 
+the nobility's right and responsibility to rule. 
+C ll APT ER 6 I HE LL OF A SUM M ER 
+T'ERENZIO AND ELZERINA 
+The Cassala nter twins aren't members of their parents" 
+cult and have no other friends. since they are privately 
+tutored and rarely allowed to leave the estate. Around 
+strangers, Terenzio becomes suspicious and meek. 
+while Elzerina seems brash and outgoing. Both chil­
+dren a re incredibly excited to meet friendly strangers 
+and treat their "new friends" to a trip around the house. 
+They help the characters sneak through the villa, since 
+the ch ildren know they aren't s upposed to have guests. 
+During the hours when the children are awake. their 
+location in the villa can be determined randomly: 
+dlOO 
+01-50 
+51 - 75 
+76-00 
+Terenzio and Elzerina's Location 
+They're playing in their room {area C18). 
+They're in the library (area C3). 
+They're chasing butterflies in the garden (area C25). 
+Terenz io and Elzerina have places in the house that 
+their parents have forbade them from visit ing-and that 
+they are excited to explore, now that they have friends to 
+accompany them. These locations are as follows: 
+• Their father's office (area C6) 
+• The attic (area C24) 
+• The wine cellar area (C28) 
+If asked about their parents, Terenzio and Elzerina 
+report that their parents are searching for some missing 
+dragons. (What their parents plan to do with a bunch of 
+scary, winged reptiles is beyond them, and Terenzio and 
+Elzerina are too sca red to ask.) If befriended, they reveal 
+that their father keeps a journal in his office (area C6). 
+If asked about their older brother, Osvaldo. Terenzio 
+and Elzerina repeat what their parents have told them: 
+he's attending school in a faraway city (they don't recall 
+which one). Neither knows the cruel fate that has be­
+fallen Osvaldo (see area C24) or suspects that a similar 
+fate awaits them. 
+HEA D SERVANTS 
+The head servants of Cassalanter Villa are members of 
+the cult. These four servants are described below. All 
+appear to be tieflings, though one is not. The following 
+changes apply to the tiefiings' stat blocks: 
+• The tiefiings are lawful evil. 
+• They have these racial traits: They know the thauma­
+turgy cantrip, and Charisma is their spellcasting abil­
+ity for this spell. They have resistance to fire damage. 
+They have darkvision out to a range of 60 feet. They 
+speak Common and Infernal. 
+WlLLIFORT CROWELLE 
+Willi fort dresses in a sharp black suit and wears thin­
+rimmed spectac les. He's a dopp elganger that usually 
+takes the form of an aging male tiefiing, and he greets 
+all guests in the entrance hall (area Cl). 
+As the Cassalanters' chief butler and Lord Victoro's 
+personal attendant, Willifort Crowelle makes a point of 
+knowing everything that transpires within the villa. If 
+the Cassalanters have guests, he escorts them during 
+their entire visit, using stealth if necessary. He ushers 
+nosy guests away from areas or objects that might link 
+the Cassalante rs with the Asmodeus-worshiping cult. 

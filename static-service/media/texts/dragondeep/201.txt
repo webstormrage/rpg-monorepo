@@ -1,0 +1,80 @@
+'200 
+T><E DOOM R1110£RS (L£1'T TO RIGHT) : OllVIL STllRSONG, !STRID HORN, T11SHLYN Y11FEr:RA: SMEEMO WEtROBOTTLE, ANO Z1RA.J THE 11UNTER 
+S KEEMO WEIRDBOTTLE 
+Small humanoid (gnome), neulral evil 
+Armor Class 12 (15 with mage armor) 
+Hit Points 72 (16d6 + 16) 
+Speed 25 ft. 
+STR 
+9 (-1) 
+DEX 
+14 (+2) 
+CON 
+12 (+1) 
+Saving Throws Int +6, Wis +4 
+INT 
+17 (+3) 
+.J ... 
+' 
+WIS 
+12 {+l) 
+.. 
+CHA 
+15 (+2) 
+• 
+Skills Arcana +6, History +6, Perception +4, Performance +S 
+Senses darkvision 60 ft., passive Perception 14 
+Languages Abyssal, Common, Gnomish, Undercommon 
+Challenge 6 (2,300 XP) 
+Gnome Cunning. Skeemo has advantage on Intelligence, Wis· 
+dom, and Charisma saving throws against magic. 
+Spe//casting. Skeemo is a 9th-level spellcaster. His spellcasting 
+ability is Intelligence (spell save DC 14, +6 to hit with spell at­
+tacks). He has the following wizard spells prepared: 
+Cantrips (at will): fire bolt, light, mage hand, prestidigitation 
+1st level (4 slots): detect magic, mage armor, magic mis-
+sile, shield 
+2nd level (3 slots): misty step, suggestion 
+3rd level (3 slots): counlerspe/l,fireba/l,fly 
+4th level (3 slots): greater invisibility, ice storm 
+Sth level (1 slot): cone of cold 
+ACTION S 
+Dagger. Melee or Ranged Weapon Attack: +S to hit, reach S ft. or 
+range 20/ 60 ft., one target. Hit: 4 (ld 4 + 2) piercing damage. 
+,\PPENDIX 0 I MONSTERS ANO NPCS 
+TASHLYN YAFEERA 
+Medium humanoid (human). neutral 
+Armor Class 18 (plate) 
+Hit Points 149 (23d8 + 46) 
+Speed 30 ft. 
+STR 
+18 (+4) 
+DEX 
+15 (+2) 
+CON 
+14 {+2) 
+Saving Throws Str +8, Con +6 
+INT 
+10 (+O) 
+WIS 
+14 (+2) 
+Skills Athletics +8, Intimidation +5, Perception +6 
+Senses passive Perception 16 
+Languages Common 
+Challenge 9 (S,000 XP) 
+CHA 
+12 (+1) 
+Indomitable (2/Day). Tashlyn can reroll a saving throw that she 
+fails. She must use the new roll. 
+Second Wind (Recharges after a Short or Long Rest). As a bo­
+nus action, Tashlyn can regain 20 hit points. 
+A CTIONS 
+Multiattack. Tashlyn makes three attacks with her greatsword 
+or her shortbow. 
+Creatsword. Melee Weapon Attack: +8 to hit, reach S ft., one 
+target. Hit: 11 (2d6 + 4) slashing damage , plus 7 (2d6) slashing 
+damage ifTashlyn has more than half her hit points remaining. 
+Shartbow. Ranged Weapon Attack: +6 to hit, range 80/320 
+ft., one target. Hit: 5 (ld6 + 2) piercing damage, plus 7 (2d6) 
+piercing damage ifTashlyn has more than half her hit points 
+remaining. 

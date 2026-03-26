@@ -1,0 +1,64 @@
+WALKING STATUES OF WATERDEEP 
+Scattered throughout Waterdeep are eight enormous 
+stat ues that ca n defend the city in times of great peril. 
+Beca use they are so destructive, the walking statues 
+are used only to fend off armies and see mingly insur­
+mountable foes. 
+Each statu e has a name and a unique appearan ce 
+(see "The Walking Statues," page 182), but in term s 
+of statistics they are similar. The statue known as the 
+Sword maiden is too broken to be animated, and only the 
+WALKING STATUE OF WAT ERD EEP 
+Gargantuan construct, unaligned 
+Armor Class 17 (natura l armor) 
+Hit Points 314 (17d20 + 136) 
+Speed 60 ft. 
+STR 
+30 (+10) 
+DEX 
+8 (- 1) 
+CON 
+27 (+8) 
+Saving Throw s Con +14 
+INT 
+1 (-5) 
+WIS 
+10 (+O) 
+CHA 
+1 (- 5) 
+Damage Immun ities cold , fire, poison , psychic; bludgeoning , 
+piercing , and slashing from nonmagical attacks not made 
+with adamantine weapons 
+Condition Immun ities charmed, exhaustion, frightened, 
+paralyzed, petrified , poisoned, stunned 
+Senses truesight 120 ft. , passive Perception 10 
+l anguages-
+Challenge 18 (20,000 XP) 
+wielder of the Blackstaff (see appendi x A) can animate 
+the other seven. 
+Landmark s. Over the years, Waterdavians have built 
+structures around and on top of several of the statues, 
+believing them to be little more than landma rks at this 
+point. ln their inanimate state, the statues pose little 
+danger - but any structu res attached to a walking statue 
+are dest royed the first time it animates. 
+Constru cted Nature. A walking statue doesn't require 
+air, food, drink, or sleep. 
+Crumbling Colossus. When the statue drops to 0 hit points, It 
+crumbles and is destroyed. Any creature on the ground within 
+30 feet of the crumbling statue must make a DC 22 Dexterity 
+saving throw, taking 22 (4dl0) bludgeoning damag e on a failed 
+save, or half as much damage on a successful one. 
+Immutable Form. The statue is immune to any spell or effect 
+that would alter its form. 
+Magic Resistance. The statue has advantage on saving throws 
+against spells and other magical effects. 
+Siege Monster. The statue dea ls double damage to objects and 
+structures. 
+A CT IONS 
+Multiattack . The statue makes two me lee attacks. 
+Slam. Melee Weapon Attack: +16 to hit, reach 5 ft., on e target. 
+Hit: 29 (3d12 + 10) bludgeoning damage . 
+Hurled Stone. Ranged Weapon Aitack: + 16 to hit, range 200/ 800 
+ft., one target. Hit: 43 (6d10 + 10) bludgeonin g damage. 
+APPENDIX B I MONSTERS AND NPC S 

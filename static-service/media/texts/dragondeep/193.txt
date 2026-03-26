@@ -1,0 +1,92 @@
+SToNe OF" GoLORR 
+(+3), and a score of 1 (- 5) in all other abilities, and it is 
+immune to poison and psychic damage. 
+lt travels to within 5 feet of its intended recipient by 
+the most direct route, whereupon it turns into a non­
+magical and inanimate sheet of parchment that can be 
+unfolded only by the intended recipient. If the bird's hit 
+points or speed is reduc ed to 0 or if it is otherwise im­
+mobilized, it turns into ash. 
+Paper birds usually come in small, flat boxes contain­
+ing ld6 + 3 sheets of the parchment. 
+RING OF TRUTH 'TELLING 
+Ring, uncommon (requires attuncment) 
+While wearing this ring, you have advantage on Wisdom 
+(Insight) checks to determine whether someone is ly­
+ing to you. 
+SMOKEPOWDER 
+Wondrous item, uncommon 
+Smokepowder is a magical explos ive chiefly used to 
+propel a bullet out of the barrel of a firearm. It is stored 
+in airtight wooden kegs or tiny, waterproof leather 
+packets. A packet contains enough smokepowder for 
+five shots, and a keg holds enoug h smo kepowder for five 
+hundr ed shots. 
+If smokepowder is set on fire, dropped, or otherwise 
+handl ed roughly, it explodes and dea ls fire damage to 
+each creature or object within 20 feet of it: ld6 for a 
+packet, 9d6 for a keg. A successful DC 12 Dexterity sav­
+ing throw halves the damag e. 
+Casting dispel magic on smokepowder renders it per­
+manently inert. 
+APP£NDIX A 1 MAGIC ITEMS 
+STONE OF GOLORR 
+Wondrous item, artifact (requires attunement) 
+The Stone ofGolorr is a glossy, greenish-gray stone 
+that fits in the palm of your hand. The s tone is actually 
+an aboleth named Golorr, transformed by magic into 
+an object. 
+Random Properties. The Stone of Golorr has the 
+following properties, determined by rolling on the tables 
+in the "Artifacts" section in chapt er 7 of the Dungeon 
+Master's Guide: 
+• 1 minor beneficial property 
+• l minor detrimental property 
+Legend Lore. The Ston e of Golorr has 3 charges and 
+regains ld3 expended charges daily at dawn. While 
+holding the stone, you can expend 1 of its charges to 
+cas t the legend lore spell. 
+By using the stone to cast legend lore, you comm uni­
+cate directly with the aboleth, and it shares its knowl­
+edge with you. The aboleth can't lie to you, but the infor­
+mation it provides is often cryptic or vague. 
+The aboleth koows where Lord Neverember's secret 
+vault is located. It also knows that three keys are needed 
+to open the vault and that a gold dragon named Aurinax 
+inhabits the vault and guards its treasures. 
+Failed Memory. When your attunement to the Stone 
+of Colorr ends, you must make a DC 16 Wisdom saving 
+throw. On a failed save, you lose all memory of the stone 
+being in your possession and all knowledge imparted 
+by it. A remove curse spell cast on you has a 20 percent 
+chance of restoring the lost knowledge and memories , 
+and a greater restoration spe ll does so automat ically. 
+Sentience . The Stone of Golorr is a sentient lawful 
+evil magic ilem with an Intelligen ce or 18, a Wisdom of 
+15, and a Charisma of 18. It has hearing and darkvision 
+out to a range of 120 feet. It can com muni cate telepath­
+ically with the creature that is attuned to it, as long as 
+that creature understands at least one language. Io addi­
+tion, the aboleth learns the greatest desires of any crea­
+ture that commu nicates telepathi ca lly with the stone. 
+The Stone ofGo lorr hungers for information and 
+prefers not to rema in in the clutches of any creature for 
+too long. Whenever the stone desires a new owner, it 
+demand s to be given to another intellige nt creature as 
+quickly as possible. If its demand s are ignored , it tries to 
+take control of its owner (see "Se ntient Magic Items" in 
+chap ter 7 of the Dungeon Master's Guide). 
+Perso nality. The Stone ofGolorr has an alien intellect 
+that is both domineering and hun gry for knowledge. It 
+thinks of itself as an ageless and immortal god. 
+Des troying the Stone. While in stone form. the 
+aboleth isn't a creature and isn't subject to effects that 
+target creat ures. The Stone o!Colorr is immune to all 
+damage. Casting an antipathy/sympathy spell on the 
+s tone destroys it if the antipathy effect is selected and 
+the spe ll is directed to repel aberrations. When the spell 
+is cast in this way, the stone tran sforms into mucus 
+and is destroyed. and Golorr the aboleth appears in an 
+unocc upied space within 30 feet of the stone's remains. 
+The aboleth is incensed by the stone's destruction, and it 
+attacks all other creatures it can see. 

@@ -1,0 +1,115 @@
+EMERALD ENCLAVE 
+Characters who are members of the Emerald Enclave 
+can learn the location of Xanathar's lair by speaking 
+with]eryth Phaulkon at Phaulkonmere.Jeryth tells 
+them that she has been sending awakened rats into the 
+sewers to find the beholder's Lair, and that they recently 
+discovered a secret staircase in the Castle Ward sewers 
+leading down to it (area Xl). She has one of the awak­
+ened rats lead them there. This rat has an Intelligence 
+score of 10 and can speak Common. 
+ZHENTARIM 
+Characters who are members of the Zhentarim can 
+approach Yagra Stonefist at the Yawning Portal (see 
+"Familiar Faces,'' page 20). She rece ntJy learned 
+about a "back door" to the beholder's lair from a 
+drunk en blabbermouth with ties to the Xanathar Guild. 
+Yagra offers to lead them to a secret staircase in the 
+sewers under the Castle Ward (area Xl). "Trust me," she 
+says, "it's safer than the route through Undermountain 
+and Skullport." 
+Yagra will join their descent if the characters promise 
+to pay her at least 1,000 gp. Otherwise, she wishes them 
+well and heads back to the Yawning Portal. If you're 
+tracking exper ience points, Yagra gets an equal share of 
+the XP while a member of the adventuring party. 
+AREAS OF THE LAIR 
+The following areas correspond to the labels on map 
+5.1. This lair has two levels connected by staircases and 
+secret doors. 
+XI. STAIRCASE OF EYES 
+Characters are most likely to enter Xanathar's lair by 
+this route: a spiral staircase accessible from the Castle 
+Ward's sewers and hidden behind a secret door. This 
+staircase circumvents a more difficult route through 
+Undermountain and Skullport, which is described in 
+Waterdeep: Dungeon of the Mad Mage. 
+When the characters find the staircase, read: 
+l 
+T~e walls of this narrow, spiraling staircase are carved I 
+with opened eyes that glow with a faint, magical light. 
+Characters feel as though they're being watched as they 
+descend the stairs, and the feeling doesn't go away once 
+they enter the beholder's lair. The dimly lit staircase 
+descends for hundreds of feet, ending before a circular 
+stone door that swings open into area X2. 
+X2. WATCHED HALL 
+This magically lit hall has the following features: 
+The walls are carved with eyes of all shapes and sizes. 
+Many of the orbs have stone eyelids that open and 
+close at irregular intervals. 
+• Characters who succeed on a DC 14 Wisdom (Percep­
+tion) chec k notice a ghostly eyestalk (scrying sensor) 
+protruding from the ceiling directly in front of the dou­
+ble door to the south. 
+• A secret door is hidden in the west wall. 
+C H APTE R 5 I SPR I NG MADNESS 
+B/Jnki n' Eyes. The blinking eye carvings are slightly 
+unnerving but harmless. 
+Scryin' Sensor. The ghostly eyestalk is a magical 
+sensor that allows one of the apprentice wizards in area 
+X16 to monitor this hall. The eyestalk functions as an 
+extra eye with dark vision out to a range of 60 feet. A 
+character can ascertain the eyestalk's function with a 
+successful DC 10 Intelligence (Arcana) check but can't 
+determine who's peering through it, or from where. The 
+eyestalk can't be damaged but is destroyed by a dispel 
+magic spell. The sensor is suppressed within the area of 
+an antimagic field. 
+Secr et Door. The sec ret door can be found with a 
+successful DC 15 Wisdom (Perception) chec k. To open 
+it, one must press a nearby wall carving shaped like an 
+eye. When this is done, the secret door swings inward, 
+revealing a curved hallway (area X8) beyond. 
+X3. B EHOLDER ZOMBIE GUARD 
+A beholder zombi e guards this magically lit room. Sur­
+rounding it are four gas spores, which look like imma ­
+ture beholders at first glance. All five creatures float in 
+the middle of the room. 
+The beholder zombie is all that remains of a beholder 
+that arose from the Underdark to challenge Xanathar 's 
+supremacy. After defeating its rival, Xanathar had the 
+corpse animated and transformed into a lair guardfan. 
+The gas spo res were added later. 
+The beholder zombie allows creatures that brandish 
+the symbol of Xanathar to pass unmolested. Otherwise, 
+it attacks. The gas spores don't attack but explode if they 
+take any damage. The beholder zombie is immune to 
+their Death Burst trait. 
+X4. TUNNEL TO SKULLPORT 
+This magically lit tunnel extends 300 feet eastward off 
+the map. It ends at a staircase that climbs 20 feet to the 
+Guts & Garters Inn, an establishment located in the sub­
+terranean town of Sku II port, which is under Xanathar's 
+control. See Waterdeep: Dungeon of the Mad Mage for 
+more information on the inn and Skullport. 
+X5. HORROR'S ALCOVE 
+A suit of animated armor with Xanathar's symbol 
+embossed on its breastplate stand s in this alcove, ap­
+pearing at a glance to be an ornate but inanimate suit of 
+armor on display. It remains inert until it takes damage 
+or is summoned to area X6 by Xanathar. (The beholder 
+uses it to keep the spectators in the arena from getting 
+too rowdy.) 
+X6. PIT OF BLOOD AND FORTUNE 
+Xanathar has turned this room into a gladiatorial arena. 
+It also uses this location to dispose of underlings it no 
+longer trusts in a manner that it considers entertai ning. 
+This area has the following features: 
+A magically lit, circular chamber has a thin layer of 
+blood-soaked sand covering the floor and stone but­
+tresses supporting its 40-foot-high domed ceiling. 
+• Ten-foot-high stone bleachers hug the northwest half 
+of the room. Staircases lead from the bleachers to 
+othe r areas of the lair, and a tunnel under the bleach­
+ers leads west to the monster cell block (area X7). 

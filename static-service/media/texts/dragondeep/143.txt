@@ -1,0 +1,58 @@
+l square = 5 feet 
+MAP 7.2: Sc; ARLE T MllRPENO T H 
+The gnomes know a great deal about submarines and 
+very little about everythin g else. They are treated well 
+by jarlaxle, but a successful DC 15 Charisma (Intimi­
+dation) check or a bribe of I 00 gp or more can convince 
+a gnome to s urrende r its master keys, tamper with the 
+engine, or pilot the submarine as the characters direct. 
+SUBMARINE FEATURES 
+The Scarlet Marpenoth has AC 20, 300 hit points, a 
+damage threshold of 15, and immunity to poison and 
+psychic damage. Tbe submarine's structural integrity 
+fails when the vessel drops to 0 hit points, whereupon 
+it floods and sinks. The submarine is worth 15,000 gp 
+intact and requires at least one pilot and one engineer 
+to ope rate. It has a maximum speed of 2 miles per hour 
+and can hold up to 10 passengers plus 2 tons of cargo. 
+The subma rine has the following general features: 
+• fnterior spaces are unlit. (The drow and the gnomes 
+rely on darkvision to see.) 
+• All furnis hings and features are bolted down. 
+Chambers are 8 feet high, with 6-foot-high passages 
+and doorways connecting them. 
+Air magically circulates through a complex ventilation 
+system and sma ll metal grills set into the floors. 
+Doors are made of steel and have AC 19, 27 hit points, 
+a damage threshold of 10, and immunity to poison and 
+psychic damage. A door's lock can be picked by a char­
+acter who makes a successful DC 18 Dexterity check 
+using thieves' tools. A door can be forced open by a 
+chara cter who succeeds on a DC 25 Strength (Athlet-
+<' ll APTER 7 I MAEST RO'S FALL 
+ics) check. jarlaJCle and the gnomes aboard the Scarlet 
+Marpenoth have keys to all locked doors. All doors are 
+airtight while closed. 
+AREAS OF THE SCARLET MARPENOTH 
+The following locations are keyed to map 7.2. 
+Ul. ENTRANCE HATCH 
+Characters descending from Zardoz Zord's cabin on the 
+Eyecatcher (areaj30) arrive in this chamber. From this 
+side, the circula r metal hatch is opened by turning its 
+valve wheel. This area is magically pressurized to keep 
+water from entering the Scarlet Marpenoth if the hatch 
+is opened while the submarine isn't docked to the Eye­
+catcher. But if both the outer hatch and the inner door 
+are opened underwater, the submarine will flood. 
+U2. ENGINE ROOM 
+The door to this area is locked. A plaque on the door 
+reads "ENGINE ROOM" in Common and Gnomish. The 
+room has the following feat ures: 
+The engine room is filled with machines that hiss, 
+whir, and clatter constantly. A rock gnome named 
+Breena Baffiestone monitors the machinery at all 
+times. Nearby is a copper speaking tube, which en­
+ables her to communica te with the control room com­
+mand center (area U7b). 
+• Drawers in the walls contain screwdrivers, wrenches, 
+and other tools. 
