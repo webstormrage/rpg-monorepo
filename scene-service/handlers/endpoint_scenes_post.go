@@ -17,6 +17,7 @@ func (h *SceneHandler) scenesPost(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	applySceneDefaults(&scene)
 	if err := validateScene(scene); err != nil {
 		writeError(w, http.StatusBadRequest, err.Error())
 		return
@@ -39,5 +40,6 @@ func (h *SceneHandler) scenesPost(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	applySceneDefaults(&scene)
 	writeJSON(w, http.StatusCreated, scene)
 }

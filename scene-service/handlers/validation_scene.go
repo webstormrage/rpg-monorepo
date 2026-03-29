@@ -49,6 +49,9 @@ func validateScene(scene dto.Scene) error {
 		if sprite.Size.WidthPx <= 0 || sprite.Size.HeightPx <= 0 {
 			return fmt.Errorf("sprites[%d].size.widthPx and sprites[%d].size.heightPx must be > 0", i, i)
 		}
+		if sprite.PivotX == nil || sprite.PivotY == nil {
+			return fmt.Errorf("sprites[%d].pivotX and sprites[%d].pivotY are required", i, i)
+		}
 
 		// Bottom-left coordinate system: x to the right, y upward.
 		if sprite.Position.Column < 0 || sprite.Position.Column >= scene.Grid.Columns {

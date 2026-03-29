@@ -28,6 +28,7 @@ func (h *SceneHandler) scenesGet(w http.ResponseWriter, r *http.Request) {
 			writeError(w, http.StatusInternalServerError, "failed to decode scene")
 			return
 		}
+		applySceneDefaults(&scene)
 		scenes = append(scenes, scene)
 	}
 	if err := cursor.Err(); err != nil {

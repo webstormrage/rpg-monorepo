@@ -1,2 +1,8 @@
 .idea/
 *.pdf
+*.pyc
+__pycache__/
+.venv/
+node_modules/
+dist/
+.gocache/

@@ -20,6 +20,7 @@ func (h *SceneHandler) scenePut(w http.ResponseWriter, r *http.Request, slug str
 	}
 
 	scene.Slug = slug
+	applySceneDefaults(&scene)
 	if err := validateScene(scene); err != nil {
 		writeError(w, http.StatusBadRequest, err.Error())
 		return
@@ -48,5 +49,6 @@ func (h *SceneHandler) scenePut(w http.ResponseWriter, r *http.Request, slug str
 		return
 	}
 
+	applySceneDefaults(&scene)
 	writeJSON(w, http.StatusOK, scene)
 }

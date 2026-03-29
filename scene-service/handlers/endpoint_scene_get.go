@@ -27,5 +27,6 @@ func (h *SceneHandler) sceneGet(w http.ResponseWriter, r *http.Request, slug str
 		return
 	}
 
+	applySceneDefaults(&scene)
 	writeJSON(w, http.StatusOK, scene)
 }
