@@ -59,6 +59,11 @@ body {
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
 }
 
+.scene-card .ant-typography,
+.scene-card .ant-typography.ant-typography-secondary {
+  color: #fff;
+}
+
 .scene-card__cover,
 .modal-preview-image {
   width: 100%;

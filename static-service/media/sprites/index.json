@@ -1,0 +1,213 @@
+{
+  "sprites": [
+    {
+      "name": "durnan",
+      "label": "Durnan",
+      "defaultPreset": "default",
+      "presets": [
+        {
+          "name": "default",
+          "label": "Default",
+          "thumbnail": "/media/sprites/durnan/default/idle.png",
+          "poses": [
+            { "name": "idle", "label": "Idle", "path": "/media/sprites/durnan/default/idle.png" },
+            { "name": "walk", "label": "Walk", "path": "/media/sprites/durnan/default/walk.png" },
+            { "name": "talk", "label": "Talk", "path": "/media/sprites/durnan/default/talk.png" },
+            { "name": "attack", "label": "Attack", "path": "/media/sprites/durnan/default/attack.png" },
+            { "name": "knocked", "label": "Knocked", "path": "/media/sprites/durnan/default/knocked.png" }
+          ]
+        },
+        {
+          "name": "armed",
+          "label": "Armed",
+          "thumbnail": "/media/sprites/durnan/armed/idle.png",
+          "poses": [
+            { "name": "idle", "label": "Idle", "path": "/media/sprites/durnan/armed/idle.png" },
+            { "name": "walk", "label": "Walk", "path": "/media/sprites/durnan/armed/walk.png" },
+            { "name": "talk", "label": "Talk", "path": "/media/sprites/durnan/armed/talk.png" },
+            { "name": "attack", "label": "Attack", "path": "/media/sprites/durnan/armed/attack.png" },
+            { "name": "knocked", "label": "Knocked", "path": "/media/sprites/durnan/armed/knocked.png" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "krentz",
+      "label": "Krentz",
+      "defaultPreset": "default",
+      "presets": [
+        {
+          "name": "default",
+          "label": "Default",
+          "thumbnail": "/media/sprites/krentz/default/idle.png",
+          "poses": [
+            { "name": "idle", "label": "Idle", "path": "/media/sprites/krentz/default/idle.png" },
+            { "name": "walk", "label": "Walk", "path": "/media/sprites/krentz/default/walk.png" },
+            { "name": "talk", "label": "Talk", "path": "/media/sprites/krentz/default/talk.png" },
+            { "name": "attack", "label": "Attack", "path": "/media/sprites/krentz/default/attack.png" },
+            { "name": "knocked", "label": "Knocked", "path": "/media/sprites/krentz/default/knocked.png" }
+          ]
+        },
+        {
+          "name": "armed",
+          "label": "Armed",
+          "thumbnail": "/media/sprites/krentz/armed/idle.png",
+          "poses": [
+            { "name": "idle", "label": "Idle", "path": "/media/sprites/krentz/armed/idle.png" },
+            { "name": "walk", "label": "Walk", "path": "/media/sprites/krentz/armed/walk.png" },
+            { "name": "talk", "label": "Talk", "path": "/media/sprites/krentz/armed/talk.png" },
+            { "name": "attack", "label": "Attack", "path": "/media/sprites/krentz/armed/attack.png" },
+            { "name": "knocked", "label": "Knocked", "path": "/media/sprites/krentz/armed/knocked.png" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "table",
+      "label": "Table",
+      "defaultPreset": "default",
+      "presets": [
+        {
+          "name": "default",
+          "label": "Default",
+          "thumbnail": "/media/sprites/table/default/idle.png",
+          "poses": [
+            { "name": "idle", "label": "Idle", "path": "/media/sprites/table/default/idle.png" },
+            { "name": "knocked", "label": "Knocked", "path": "/media/sprites/table/default/knocked.png" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tavern-maid",
+      "label": "Tavern Maid",
+      "defaultPreset": "default",
+      "presets": [
+        {
+          "name": "default",
+          "label": "Default",
+          "thumbnail": "/media/sprites/tavern-maid/default/idle.png",
+          "poses": [
+            { "name": "idle", "label": "Idle", "path": "/media/sprites/tavern-maid/default/idle.png" },
+            { "name": "walk", "label": "Walk", "path": "/media/sprites/tavern-maid/default/walk.png" },
+            { "name": "talk", "label": "Talk", "path": "/media/sprites/tavern-maid/default/talk.png" },
+            { "name": "attack", "label": "Attack", "path": "/media/sprites/tavern-maid/default/attack.png" },
+            { "name": "knocked", "label": "Knocked", "path": "/media/sprites/tavern-maid/default/knocked.png" }
+          ]
+        },
+        {
+          "name": "busy",
+          "label": "Busy",
+          "thumbnail": "/media/sprites/tavern-maid/busy/idle.png",
+          "poses": [
+            { "name": "idle", "label": "Idle", "path": "/media/sprites/tavern-maid/busy/idle.png" },
+            { "name": "walk", "label": "Walk", "path": "/media/sprites/tavern-maid/busy/walk.png" },
+            { "name": "talk", "label": "Talk", "path": "/media/sprites/tavern-maid/busy/talk.png" },
+            { "name": "attack", "label": "Attack", "path": "/media/sprites/tavern-maid/busy/attack.png" },
+            { "name": "knocked", "label": "Knocked", "path": "/media/sprites/tavern-maid/busy/knocked.png" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tavern-patrol",
+      "label": "Tavern Patrol",
+      "defaultPreset": "default",
+      "presets": [
+        {
+          "name": "default",
+          "label": "Default",
+          "thumbnail": "/media/sprites/tavern-patrol/default/idle.png",
+          "poses": [
+            { "name": "idle", "label": "Idle", "path": "/media/sprites/tavern-patrol/default/idle.png" },
+            { "name": "walk", "label": "Walk", "path": "/media/sprites/tavern-patrol/default/walk.png" },
+            { "name": "speak", "label": "Speak", "path": "/media/sprites/tavern-patrol/default/speak.png" },
+            { "name": "attack", "label": "Attack", "path": "/media/sprites/tavern-patrol/default/attack.png" },
+            { "name": "knocked", "label": "Knocked", "path": "/media/sprites/tavern-patrol/default/knocked.png" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "thug",
+      "label": "Thug",
+      "defaultPreset": "default",
+      "presets": [
+        {
+          "name": "default",
+          "label": "Default",
+          "thumbnail": "/media/sprites/thug/default/idle.png",
+          "poses": [
+            { "name": "idle", "label": "Idle", "path": "/media/sprites/thug/default/idle.png" },
+            { "name": "walk", "label": "Walk", "path": "/media/sprites/thug/default/walk.png" },
+            { "name": "talk", "label": "Talk", "path": "/media/sprites/thug/default/talk.png" },
+            { "name": "attack", "label": "Attack", "path": "/media/sprites/thug/default/attack.png" },
+            { "name": "knocked", "label": "Knocked", "path": "/media/sprites/thug/default/knocked.png" }
+          ]
+        },
+        {
+          "name": "armed",
+          "label": "Armed",
+          "thumbnail": "/media/sprites/thug/armed/idle.png",
+          "poses": [
+            { "name": "idle", "label": "Idle", "path": "/media/sprites/thug/armed/idle.png" },
+            { "name": "walk", "label": "Walk", "path": "/media/sprites/thug/armed/walk.png" },
+            { "name": "talk", "label": "Talk", "path": "/media/sprites/thug/armed/talk.png" },
+            { "name": "attack", "label": "Attack", "path": "/media/sprites/thug/armed/attack.png" },
+            { "name": "knocked", "label": "Knocked", "path": "/media/sprites/thug/armed/knocked.png" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "troll",
+      "label": "Troll",
+      "defaultPreset": "default",
+      "presets": [
+        {
+          "name": "default",
+          "label": "Default",
+          "thumbnail": "/media/sprites/troll/idle.png",
+          "poses": [
+            { "name": "idle", "label": "Idle", "path": "/media/sprites/troll/idle.png" },
+            { "name": "walk", "label": "Walk", "path": "/media/sprites/troll/walk.png" },
+            { "name": "speak", "label": "Speak", "path": "/media/sprites/troll/speak.png" },
+            { "name": "attack", "label": "Attack", "path": "/media/sprites/troll/attack.png" },
+            { "name": "knoked", "label": "Knoked", "path": "/media/sprites/troll/knoked.png" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "yagra",
+      "label": "Yagra",
+      "defaultPreset": "default",
+      "presets": [
+        {
+          "name": "default",
+          "label": "Default",
+          "thumbnail": "/media/sprites/yagra/default/idle.png",
+          "poses": [
+            { "name": "idle", "label": "Idle", "path": "/media/sprites/yagra/default/idle.png" },
+            { "name": "walk", "label": "Walk", "path": "/media/sprites/yagra/default/walk.png" },
+            { "name": "talk", "label": "Talk", "path": "/media/sprites/yagra/default/talk.png" },
+            { "name": "attack", "label": "Attack", "path": "/media/sprites/yagra/default/attack.png" },
+            { "name": "knocked", "label": "Knocked", "path": "/media/sprites/yagra/default/knocked.png" }
+          ]
+        },
+        {
+          "name": "armed",
+          "label": "Armed",
+          "thumbnail": "/media/sprites/yagra/armed/idle.png",
+          "poses": [
+            { "name": "idle", "label": "Idle", "path": "/media/sprites/yagra/armed/idle.png" },
+            { "name": "walk", "label": "Walk", "path": "/media/sprites/yagra/armed/walk.png" },
+            { "name": "talk", "label": "Talk", "path": "/media/sprites/yagra/armed/talk.png" },
+            { "name": "attack", "label": "Attack", "path": "/media/sprites/yagra/armed/attack.png" },
+            { "name": "knocked", "label": "Knocked", "path": "/media/sprites/yagra/armed/knocked.png" }
+          ]
+        }
+      ]
+    }
+  ]
+}

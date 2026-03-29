@@ -1,0 +1,12 @@
+[
+  {
+    "id": "tavern-portal",
+    "label": "Tavern Portal",
+    "path": "/media/backgrounds/tavern-portal.png"
+  },
+  {
+    "id": "tavern-portal-alt",
+    "label": "Tavern Portal Alt",
+    "path": "/media/backgrounds/tavern-portal-alt.png"
+  }
+]
