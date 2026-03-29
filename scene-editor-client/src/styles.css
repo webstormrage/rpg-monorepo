@@ -187,10 +187,12 @@ body {
   max-height: 480px;
   overflow: auto;
   padding-right: 6px;
+  padding-bottom: 12px;
 }
 
 .picker-column--compact {
   justify-content: start;
+  padding-bottom: 100px;
 }
 
 .picker-card {
@@ -291,6 +293,17 @@ body {
   overflow: hidden;
 }
 
+.sprite-picker-columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  min-height: 0;
+}
+
+.sprite-picker-column {
+  min-width: 0;
+}
+
 .sprite-preview-panel {
   padding: 12px;
   border-radius: 16px;
@@ -359,6 +372,11 @@ body {
 
   .sprite-picker-header {
     flex-direction: column;
+  }
+
+  .sprite-picker-columns {
+    grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .proto-sprite-modal__header {

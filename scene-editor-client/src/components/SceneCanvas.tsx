@@ -318,7 +318,6 @@ export function SceneCanvas({
           return;
         }
 
-        const sprite = new Sprite(texture);
         const textureWidth = texture.orig.width || sceneSprite.size.widthPx;
         const textureHeight = texture.orig.height || sceneSprite.size.heightPx;
         const scaledPivotX =
@@ -327,24 +326,54 @@ export function SceneCanvas({
           (sceneSprite.pivotY / textureHeight) * sceneSprite.size.heightPx;
         const cellLeft =
           grid.origin.xPx + sceneSprite.position.column * grid.cellSizePx;
-
-        if (sceneSprite.mirror) {
-          sprite.x = cellLeft + (sceneSprite.size.widthPx - scaledPivotX);
-          sprite.scale.x = -sceneSprite.size.widthPx / textureWidth;
-        } else {
-          sprite.x = cellLeft - scaledPivotX;
-          sprite.scale.x = sceneSprite.size.widthPx / textureWidth;
-        }
-        sprite.y = toScreenY(
+        const auraSprites = [
+          new Sprite(texture),
+          new Sprite(texture),
+          new Sprite(texture)
+        ];
+        const baseScaleX = sceneSprite.size.widthPx / textureWidth;
+        const baseScaleY = sceneSprite.size.heightPx / textureHeight;
+        const auraScaleFactors = [1.04, 1.08, 1.12];
+        const spriteY = toScreenY(
           canvasSize.height,
           grid,
           sceneSprite.position.row,
           sceneSprite.size.heightPx,
           scaledPivotY
         );
-        sprite.scale.y = sceneSprite.size.heightPx / textureHeight;
+        const sprite = new Sprite(texture);
+        if (sceneSprite.mirror) {
+          sprite.x = cellLeft + (sceneSprite.size.widthPx - scaledPivotX);
+          sprite.scale.x = -baseScaleX;
+          auraSprites.forEach((auraSprite, index) => {
+            const factor = auraScaleFactors[index];
+            auraSprite.x =
+              sprite.x - ((sceneSprite.size.widthPx * factor) - sceneSprite.size.widthPx) / 2;
+            auraSprite.scale.x = -(baseScaleX * factor);
+          });
+        } else {
+          sprite.x = cellLeft - scaledPivotX;
+          sprite.scale.x = baseScaleX;
+          auraSprites.forEach((auraSprite, index) => {
+            const factor = auraScaleFactors[index];
+            auraSprite.x =
+              sprite.x - ((sceneSprite.size.widthPx * factor) - sceneSprite.size.widthPx) / 2;
+            auraSprite.scale.x = baseScaleX * factor;
+          });
+        }
+        auraSprites.forEach((auraSprite, index) => {
+          const factor = auraScaleFactors[index];
+          auraSprite.y =
+            spriteY - ((sceneSprite.size.heightPx * factor) - sceneSprite.size.heightPx) / 2;
+          auraSprite.scale.y = baseScaleY * factor;
+          auraSprite.tint = 0xffffff;
+          auraSprite.alpha = 0.07;
+        });
+        sprite.y = spriteY;
+        sprite.scale.y = baseScaleY;
         sprite.alpha = 1;
         sprite.filters = [baseBrightnessFilter];
+        auraSprites.forEach((auraSprite) => layer.addChild(auraSprite));
         spriteViews.set(sceneSprite.slug, sprite);
         layer.addChild(sprite);
       });

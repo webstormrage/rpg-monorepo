@@ -2,12 +2,10 @@ import {
   Breadcrumb,
   Card,
   Checkbox,
-  Col,
   Form,
   Input,
   InputNumber,
   Modal,
-  Row,
   Typography
 } from "antd";
 import { useEffect, useMemo, useState } from "react";
@@ -302,8 +300,8 @@ export function SpritePickerModal({
         ) : null}
       </div>
 
-      <Row gutter={24}>
-        <Col span={8}>
+      <div className="sprite-picker-columns">
+        <div className="sprite-picker-column">
           <Typography.Title level={5}>Sprite</Typography.Title>
           <div className="picker-column picker-column--compact">
             {manifest.map((item) =>
@@ -324,8 +322,8 @@ export function SpritePickerModal({
               )
             )}
           </div>
-        </Col>
-        <Col span={8}>
+        </div>
+        <div className="sprite-picker-column">
           <Typography.Title level={5}>Preset</Typography.Title>
           <div className="picker-column picker-column--compact">
             {currentSprite?.presets.map((item: SpritePresetManifest) =>
@@ -347,8 +345,8 @@ export function SpritePickerModal({
               )
             )}
           </div>
-        </Col>
-        <Col span={8}>
+        </div>
+        <div className="sprite-picker-column">
           <Typography.Title level={5}>Pose</Typography.Title>
           <div className="picker-column picker-column--compact">
             {currentPreset?.poses.map((item: SpritePoseManifest) =>
@@ -369,8 +367,8 @@ export function SpritePickerModal({
               )
             )}
           </div>
-        </Col>
-      </Row>
+        </div>
+      </div>
     </Modal>
   );
 }
