@@ -7,6 +7,7 @@ import { BackgroundPickerModal } from "../components/BackgroundPickerModal";
 import { ContextMenu, type ContextMenuAction } from "../components/ContextMenu";
 import { GridEditModal } from "../components/GridEditModal";
 import { SceneCanvas } from "../components/SceneCanvas";
+import { SpriteFromProtoModal } from "../components/SpriteFromProtoModal";
 import { SpritePickerModal } from "../components/SpritePickerModal";
 import type { Grid, GridPosition, Scene, SceneSprite } from "../types";
 
@@ -25,9 +26,11 @@ export function SceneEditorPage() {
   const [backgroundOpen, setBackgroundOpen] = useState(false);
   const [gridOpen, setGridOpen] = useState(false);
   const [spriteOpen, setSpriteOpen] = useState(false);
+  const [spriteFromProtoOpen, setSpriteFromProtoOpen] = useState(false);
   const [infoOpen, setInfoOpen] = useState(false);
   const [spriteDraft, setSpriteDraft] = useState<SceneSprite | null>(null);
   const [spritePosition, setSpritePosition] = useState<GridPosition | null>(null);
+  const [protoTargetCell, setProtoTargetCell] = useState<GridPosition | null>(null);
   const [movingSprite, setMovingSprite] = useState<SceneSprite | null>(null);
   const [viewportSize, setViewportSize] = useState({
     width: window.innerWidth,
@@ -167,6 +170,14 @@ export function SceneEditorPage() {
                 setSpriteDraft(null);
                 setSpritePosition(menu.cell);
                 setSpriteOpen(true);
+              }
+            },
+            {
+              key: "add-sprite-from-proto",
+              label: `Sprite from proto to ${menu.cell.column}:${menu.cell.row}`,
+              onClick: () => {
+                setProtoTargetCell(menu.cell);
+                setSpriteFromProtoOpen(true);
               }
             }
           ]
@@ -335,6 +346,20 @@ export function SceneEditorPage() {
         onCancel={() => setSpriteOpen(false)}
         onSubmit={(nextSprite) => {
           setSpriteOpen(false);
+          upsertSprite(nextSprite);
+        }}
+      />
+
+      <SpriteFromProtoModal
+        open={spriteFromProtoOpen}
+        targetCell={protoTargetCell}
+        onCancel={() => {
+          setSpriteFromProtoOpen(false);
+          setProtoTargetCell(null);
+        }}
+        onSubmit={(nextSprite) => {
+          setSpriteFromProtoOpen(false);
+          setProtoTargetCell(null);
           upsertSprite(nextSprite);
         }}
       />

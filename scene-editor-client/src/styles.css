@@ -211,6 +211,11 @@ body {
   box-shadow: 0 0 0 1px rgba(216, 156, 72, 0.4);
 }
 
+.picker-card--active:hover {
+  border-color: #d89c48;
+  box-shadow: 0 0 0 2px rgba(216, 156, 72, 0.55);
+}
+
 .sprite-picker-card__media {
   width: 150px;
   height: 150px;
@@ -309,6 +314,32 @@ body {
   margin-top: 0;
 }
 
+.proto-sprite-modal .ant-modal-body {
+  overflow: hidden;
+}
+
+.proto-sprite-modal__header {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.proto-sprite-modal__field {
+  min-width: 0;
+  flex: 1 1 0;
+}
+
+.proto-sprite-grid {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 170px));
+  gap: 12px;
+  max-height: 480px;
+  overflow: auto;
+  align-content: start;
+}
+
 .w-full,
 .w-full .ant-input-number {
   width: 100%;
@@ -327,6 +358,10 @@ body {
   }
 
   .sprite-picker-header {
+    flex-direction: column;
+  }
+
+  .proto-sprite-modal__header {
     flex-direction: column;
   }
 
