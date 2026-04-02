@@ -1,0 +1,93 @@
+# Создание персонажа
+
+Нужно последовательно пройти 4 шага создания персонажа.
+
+## Шаг 1. Выбор расы
+
+Выбери 1 расу из каталога `race/`.
+
+Доступные варианты:
+- `dragonborn`
+- `drow`
+- `half-elf`
+- `half-orc`
+- `high-elf`
+- `hill-dwarf`
+- `human`
+- `light-footed-halfling`
+- `mountain-dwarf`
+- `rock-gnome`
+- `stocky-halfling`
+- `tiefling`
+- `wood-elf`
+- `wood-gnome`
+
+Формат ответа на этом шаге:
+`race: <slug>`
+
+## Шаг 2. Выбор класса
+
+Выбери 1 класс из 10 доступных:
+- `barbarian`
+- `bard`
+- `cleric`
+- `druid`
+- `fighter`
+- `monk`
+- `paladin`
+- `ranger`
+- `rogue`
+- `wizard`
+
+Формат ответа на этом шаге:
+`class: <slug>`
+
+## Шаг 3. Выбор происхождения
+
+Выбери 1 происхождение из PHB:
+- `acolyte`
+- `charlatan`
+- `criminal`
+- `entertainer`
+- `folk-hero`
+- `guild-artisan`
+- `hermit`
+- `noble`
+- `outlander`
+- `sage`
+- `sailor`
+- `soldier`
+- `urchin`
+
+Формат ответа на этом шаге:
+`background: <slug>`
+
+## Шаг 4. Характеристики
+
+Используй `standard array`:
+- `15`
+- `14`
+- `13`
+- `12`
+- `10`
+- `8`
+
+Нужно распределить эти значения по характеристикам в выбранном порядке:
+- `strength`
+- `dexterity`
+- `constitution`
+- `intelligence`
+- `wisdom`
+- `charisma`
+
+Формат ответа на этом шаге:
+`abilities: STR=<value>, DEX=<value>, CON=<value>, INT=<value>, WIS=<value>, CHA=<value>`
+
+## Итоговый формат ответа
+
+```text
+race: <slug>
+class: <slug>
+background: <slug>
+abilities: STR=<value>, DEX=<value>, CON=<value>, INT=<value>, WIS=<value>, CHA=<value>
+```
