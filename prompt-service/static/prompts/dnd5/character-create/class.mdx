@@ -1,0 +1,21 @@
+# Шаг выбора класса
+
+Текущий выбранный класс:
+`{class}`
+
+{{ifEq class "barbarian"}}{{include "classes/barbarian.mdx"}}{{/ifEq}}
+{{ifEq class "bard"}}{{include "classes/bard.mdx"}}{{/ifEq}}
+{{ifEq class "cleric"}}{{include "classes/cleric.mdx"}}{{/ifEq}}
+{{ifEq class "druid"}}{{include "classes/druid.mdx"}}{{/ifEq}}
+{{ifEq class "fighter"}}{{include "classes/fighter.mdx"}}{{/ifEq}}
+{{ifEq class "monk"}}{{include "classes/monk.mdx"}}{{/ifEq}}
+{{ifEq class "paladin"}}{{include "classes/paladin.mdx"}}{{/ifEq}}
+{{ifEq class "ranger"}}{{include "classes/ranger.mdx"}}{{/ifEq}}
+{{ifEq class "rogue"}}{{include "classes/rogue.mdx"}}{{/ifEq}}
+{{ifEq class "sourcerer"}}{{include "classes/sourcerer.mdx"}}{{/ifEq}}
+{{ifEq class "warlock"}}{{include "classes/warlock.mdx"}}{{/ifEq}}
+{{ifEq class "wizzard"}}{{include "classes/wizzard.mdx"}}{{/ifEq}}
+
+{{ifEq class ""}}
+Ошибка: переменная `class` не передана.
+{{/ifEq}}

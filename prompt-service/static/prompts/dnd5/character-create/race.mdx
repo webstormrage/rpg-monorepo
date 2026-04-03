@@ -1,0 +1,23 @@
+# Шаг выбора расы
+
+Текущая выбранная раса:
+`{race}`
+
+{{ifEq race "dragonborn"}}{{include "races/dragonborn.mdx"}}{{/ifEq}}
+{{ifEq race "drow"}}{{include "races/drow.mdx"}}{{/ifEq}}
+{{ifEq race "half-elf"}}{{include "races/half-elf.mdx"}}{{/ifEq}}
+{{ifEq race "half-orc"}}{{include "races/half-orc.mdx"}}{{/ifEq}}
+{{ifEq race "high-elf"}}{{include "races/high-elf.mdx"}}{{/ifEq}}
+{{ifEq race "hill-dwarf"}}{{include "races/hill-dwarf.mdx"}}{{/ifEq}}
+{{ifEq race "human"}}{{include "races/human.mdx"}}{{/ifEq}}
+{{ifEq race "light-footed-halfling"}}{{include "races/light-footed-halfling.mdx"}}{{/ifEq}}
+{{ifEq race "mountain-dwarf"}}{{include "races/mountain-dwarf.mdx"}}{{/ifEq}}
+{{ifEq race "rock-gnome"}}{{include "races/rock-gnome.mdx"}}{{/ifEq}}
+{{ifEq race "stocky-halfling"}}{{include "races/stocky-halfling.mdx"}}{{/ifEq}}
+{{ifEq race "tiefling"}}{{include "races/tiefling.mdx"}}{{/ifEq}}
+{{ifEq race "wood-elf"}}{{include "races/wood-elf.mdx"}}{{/ifEq}}
+{{ifEq race "wood-gnome"}}{{include "races/wood-gnome.mdx"}}{{/ifEq}}
+
+{{ifEq race ""}}
+Ошибка: переменная `race` не передана.
+{{/ifEq}}

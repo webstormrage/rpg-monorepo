@@ -1,0 +1,59 @@
+# Выборы для cleric
+
+На 1 уровне для `cleric` нужно сделать следующие выборы.
+
+## 1. Навыки
+Выбери 2 навыка из списка:
+- `history`
+- `medicine`
+- `insight`
+- `religion`
+- `persuasion`
+
+Формат ответа:
+`skillProficiencies: [<skill>, <skill>]`
+
+## 2. Стартовое снаряжение
+Сделай выборы в каждой строке:
+- `mace` или `warhammer-if-proficient`
+- `scale-mail` или `leather-armor` или `chain-mail-if-proficient`
+- `light-crossbow-and-20-bolts` или `simple-weapon`
+- `priests-pack` или `explorers-pack`
+
+Дополнительно без выбора:
+- `shield`
+- `holy-symbol`
+
+Формат ответа:
+`equipmentChoices: {...}`
+
+## 3. Заговоры
+Выбери 3 заговора жреца.
+
+Формат ответа:
+`cantrips: [<spell>, <spell>, <spell>]`
+
+## 4. Подготовленные заклинания
+Подготовь количество заклинаний, равное:
+`wisdomModifier + 1`
+
+Формат ответа:
+`preparedSpells: [<spell>, ...]`
+
+## 5. Божественный домен
+Выбери 1 домен.
+
+Базовые варианты PHB:
+- `knowledge`
+- `life`
+- `light`
+- `nature`
+- `tempest`
+- `trickery`
+- `war`
+
+Формат ответа:
+`divineDomain: <slug>`
+
+## 6. Дополнительные выборы домена
+Если домен даёт дополнительные языки, навыки или владения, зафиксируй их отдельными полями.
