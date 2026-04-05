@@ -132,6 +132,32 @@ async function renderTemplate(template, data, baseFilePath) {
   let rendered = template;
 
   rendered = rendered.replace(
+    /\{\{ifIn\s+([a-zA-Z0-9_.]+)\s+"([^"]*)"\}\}([\s\S]*?)\{\{\/ifIn\}\}/g,
+    (_, expression, expectedValues, content) => {
+      const value = String(resolveTemplateValue(data, expression) ?? "");
+      const values = expectedValues
+        .split("|")
+        .map((item) => item.trim())
+        .filter(Boolean);
+
+      return values.includes(value) ? content : "";
+    }
+  );
+
+  rendered = rendered.replace(
+    /\{\{ifNotIn\s+([a-zA-Z0-9_.]+)\s+"([^"]*)"\}\}([\s\S]*?)\{\{\/ifNotIn\}\}/g,
+    (_, expression, expectedValues, content) => {
+      const value = String(resolveTemplateValue(data, expression) ?? "");
+      const values = expectedValues
+        .split("|")
+        .map((item) => item.trim())
+        .filter(Boolean);
+
+      return values.includes(value) ? "" : content;
+    }
+  );
+
+  rendered = rendered.replace(
     /\{\{ifEq\s+([a-zA-Z0-9_.]+)\s+"([^"]*)"\}\}([\s\S]*?)\{\{\/ifEq\}\}/g,
     (_, expression, expectedValue, content) => {
       const value = resolveTemplateValue(data, expression);
