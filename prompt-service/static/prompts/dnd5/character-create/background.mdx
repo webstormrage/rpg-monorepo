@@ -1,0 +1,24 @@
+{{ifIn background "sailor|urchin"}}EMPTY{{/ifIn}}
+
+{{ifNotIn background "sailor|urchin"}}
+# Шаг выбора предыстории
+
+Текущая выбранная предыстория:
+`{background}`
+
+{{ifEq background "acolyte"}}{{include "backgrounds/acolyte.mdx"}}{{/ifEq}}
+{{ifEq background "charlatan"}}{{include "backgrounds/charlatan.mdx"}}{{/ifEq}}
+{{ifEq background "criminal"}}{{include "backgrounds/criminal.mdx"}}{{/ifEq}}
+{{ifEq background "entertainer"}}{{include "backgrounds/entertainer.mdx"}}{{/ifEq}}
+{{ifEq background "folk-hero"}}{{include "backgrounds/folk-hero.mdx"}}{{/ifEq}}
+{{ifEq background "guild-artisan"}}{{include "backgrounds/guild-artisan.mdx"}}{{/ifEq}}
+{{ifEq background "hermit"}}{{include "backgrounds/hermit.mdx"}}{{/ifEq}}
+{{ifEq background "noble"}}{{include "backgrounds/noble.mdx"}}{{/ifEq}}
+{{ifEq background "outlander"}}{{include "backgrounds/outlander.mdx"}}{{/ifEq}}
+{{ifEq background "sage"}}{{include "backgrounds/sage.mdx"}}{{/ifEq}}
+{{ifEq background "soldier"}}{{include "backgrounds/soldier.mdx"}}{{/ifEq}}
+
+{{ifEq background ""}}
+Ошибка: переменная `background` не передана.
+{{/ifEq}}
+{{/ifNotIn}}
