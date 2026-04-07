@@ -1,5 +1,9 @@
 # Выборы для wizzard
 
+{{ifEq intelligenceModifier ""}}
+Ошибка: переменная `intelligenceModifier` не передана.
+{{/ifEq}}
+
 На 1 уровне для `wizzard` нужно сделать следующие выборы.
 
 ## 1. Навыки
@@ -14,33 +18,101 @@
 Формат ответа:
 `skillProficiencies: [<skill>, <skill>]`
 
-## 2. Стартовое снаряжение
-Сделай выборы в каждой строке:
-- `quarterstaff` или `dagger`
-- `component-pouch` или `arcane-focus`
-- `scholars-pack` или `explorers-pack`
+## 2. Стартовое оружие
+Выбери 1 вариант:
+- `quarterstaff`
+- `dagger`
 
-Дополнительно без выбора:
+Формат ответа:
+`startingWeapon: <slug>`
+
+## 3. Магический фокус или компоненты
+Выбери 1 вариант:
+- `component-pouch`
+- `arcane-focus`
+
+Формат ответа:
+`spellcastingFocus: <slug>`
+
+## 4. Набор снаряжения
+Выбери 1 вариант:
+- `scholars-pack`
+- `explorers-pack`
+
+Формат ответа:
+`equipmentPack: <slug>`
+
+## 5. Снаряжение без выбора
+Добавь:
 - `spellbook`
 
+## 6. Заговоры
+Выбери 3 заговора волшебника:
+- `acid-splash`
+- `blade-ward`
+- `chill-touch`
+- `dancing-lights`
+- `fire-bolt`
+- `friends`
+- `light`
+- `mage-hand`
+- `mending`
+- `message`
+- `minor-illusion`
+- `poison-spray`
+- `prestidigitation`
+- `ray-of-frost`
+- `shocking-grasp`
+- `true-strike`
+- `booming-blade`
+- `green-flame-blade`
+- `lightning-lure`
+- `mind-sliver`
+- `sword-burst`
+
 Формат ответа:
-`equipmentChoices: {...}`
+`cantrips: [<slug>, <slug>, <slug>]`
 
-## 3. Заговоры
-Выбери 3 заговора волшебника.
+## 7. Книга заклинаний
+Выбери 6 заклинаний 1 уровня для начальной книги заклинаний:
+- `alarm`
+- `burning-hands`
+- `charm-person`
+- `chromatic-orb`
+- `color-spray`
+- `comprehend-languages`
+- `detect-magic`
+- `disguise-self`
+- `expeditious-retreat`
+- `false-life`
+- `feather-fall`
+- `find-familiar`
+- `fog-cloud`
+- `grease`
+- `identify`
+- `illusory-script`
+- `jump`
+- `longstrider`
+- `mage-armor`
+- `magic-missile`
+- `protection-from-evil-and-good`
+- `ray-of-sickness`
+- `shield`
+- `silent-image`
+- `sleep`
+- `tashas-caustic-brew`
+- `tashas-hideous-laughter`
+- `tensers-floating-disk`
+- `thunderwave`
+- `unseen-servant`
+- `witch-bolt`
 
 Формат ответа:
-`cantrips: [<spell>, <spell>, <spell>]`
+`spellbookSpells: [<slug>, <slug>, <slug>, <slug>, <slug>, <slug>]`
 
-## 4. Книга заклинаний
-Выбери 6 заклинаний 1 уровня для начальной книги заклинаний.
-
-Формат ответа:
-`spellbookSpells: [<spell>, <spell>, <spell>, <spell>, <spell>, <spell>]`
-
-## 5. Подготовленные заклинания
-Подготовь количество заклинаний, равное:
-`intelligenceModifier + 1`
+## 8. Подготовленные заклинания
+Подготовь количество заклинаний(из книги заклинаний), равное:
+`{intelligenceModifier} + 1`
 
 Формат ответа:
 `preparedSpells: [<spell>, ...]`

@@ -19,24 +19,47 @@
 Формат ответа:
 `skillProficiencies: [<skill>, <skill>, <skill>, <skill>]`
 
-## 2. Стартовое снаряжение
-Сделай выборы в каждой строке:
-- `rapier` или `shortsword`
-- `shortbow-and-20-arrows` или `shortsword`
-- `burglars-pack` или `dungeoneers-pack` или `explorers-pack`
+## 2. Стартовое оружие
+Выбери 1 вариант:
+- `rapier`
+- `shortsword`
 
-Дополнительно без выбора:
-- `leather-armor`
-- `two-daggers`
+Формат ответа:
+`startingWeapon: <slug>`
+
+## 3. Дальнобойное или дополнительное оружие
+Выбери 1 вариант:
+- `shortbow`
+- `shortsword`
+
+Формат ответа:
+`secondaryWeapon: <slug>`
+
+## 4. Набор снаряжения
+Выбери 1 вариант:
+- `burglars-pack`
+- `dungeoneers-pack`
+- `explorers-pack`
+
+Формат ответа:
+`equipmentPack: <slug>`
+
+## 5. Экспертиза
+Выбери 2 владения для `Expertise`: это должны быть навыки, выбранные в пункте 1, либо `thieves-tools`.
+- `acrobatics`
+- `athletics`
+- `perception`
+- `performance`
+- `intimidation`
+- `sleight-of-hand`
+- `deception`
+- `insight`
+- `investigation`
+- `stealth`
+- `persuasion`
 - `thieves-tools`
 
-Формат ответа:
-`equipmentChoices: {...}`
-
-## 3. Экспертиза
-Выбери 2 владения для `Expertise`:
-- либо 2 навыка
-- либо 1 навык и `thieves-tools`
+Можно выбрать либо 2 навыка из пункта 1, либо 1 навык из пункта 1 и `thieves-tools`.
 
 Формат ответа:
-`expertise: [<proficiency>, <proficiency>]`
+`expertise: [<slug>, <slug>]`

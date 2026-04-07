@@ -15,21 +15,43 @@
 Формат ответа:
 `skillProficiencies: [<skill>, <skill>]`
 
-## 2. Стартовое снаряжение
-Сделай выборы в каждой строке:
-- `light-crossbow-and-20-bolts` или `simple-weapon`
-- `component-pouch` или `arcane-focus`
-- `scholars-pack` или `dungeoneers-pack`
-
-Дополнительно без выбора:
-- `leather-armor`
-- `simple-weapon`
-- `two-daggers`
+## 2. Стартовое оружие
+Выбери 1 вариант:
+- `light-crossbow`
+- `club`
+- `dagger`
+- `greatclub`
+- `handaxe`
+- `javelin`
+- `light-hammer`
+- `mace`
+- `quarterstaff`
+- `sickle`
+- `spear`
+- `dart`
+- `shortbow`
+- `sling`
 
 Формат ответа:
-`equipmentChoices: {...}`
+`startingWeapon: <slug>`
 
-## 3. Потусторонний покровитель
+## 3. Магический фокус или компоненты
+Выбери 1 вариант:
+- `component-pouch`
+- `arcane-focus`
+
+Формат ответа:
+`spellcastingFocus: <slug>`
+
+## 4. Набор снаряжения
+Выбери 1 вариант:
+- `scholars-pack`
+- `dungeoneers-pack`
+
+Формат ответа:
+`equipmentPack: <slug>`
+
+## 5. Потусторонний покровитель
 Выбери 1 покровителя.
 
 Базовые варианты:
@@ -40,14 +62,45 @@
 Формат ответа:
 `otherworldlyPatron: <slug>`
 
-## 4. Заговоры
-Выбери 2 заговора колдуна.
+## 6. Заговоры
+Выбери 2 заговора колдуна:
+- `blade-ward`
+- `chill-touch`
+- `eldritch-blast`
+- `friends`
+- `mage-hand`
+- `minor-illusion`
+- `poison-spray`
+- `prestidigitation`
+- `true-strike`
+- `sword-burst`
+- `booming-blade`
+- `green-flame-blade`
+- `lightning-lure`
+- `mind-sliver`
 
 Формат ответа:
-`cantrips: [<spell>, <spell>]`
+`cantrips: [<slug>, <slug>]`
 
-## 5. Известные заклинания
-Выбери 2 заклинания 1 уровня из списка колдуна.
+## 7. Известные заклинания
+Выбери 2 заклинания 1 уровня из списка колдуна:
+- `arms-of-hadar`
+- `armor-of-agathys`
+- `charm-person`
+- `comprehend-languages`
+- `expeditious-retreat`
+- `hellish-rebuke`
+- `hex`
+- `illusory-script`
+- `protection-from-evil-and-good`
+- `unseen-servant`
+- `witch-bolt`
+- `faerie-fire` (доступно для покровителя `archfey`)
+- `sleep` (доступно для покровителя `archfey`)
+- `burning-hands` (доступно для покровителя `fiend`)
+- `command` (доступно для покровителя `fiend`)
+- `dissonant-whispers` (доступно для покровителя `great-old-one`)
+- `tashas-hideous-laughter` (доступно для покровителя `great-old-one`)
 
 Формат ответа:
-`knownSpells: [<spell>, <spell>]`
+`knownSpells: [<slug>, <slug>]`

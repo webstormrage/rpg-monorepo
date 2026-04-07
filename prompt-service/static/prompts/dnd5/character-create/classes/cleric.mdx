@@ -1,5 +1,9 @@
 # Выборы для cleric
 
+{{ifEq wisdomModifier ""}}
+Ошибка: переменная `wisdomModifier` не передана.
+{{/ifEq}}
+
 На 1 уровне для `cleric` нужно сделать следующие выборы.
 
 ## 1. Навыки
@@ -13,34 +17,7 @@
 Формат ответа:
 `skillProficiencies: [<skill>, <skill>]`
 
-## 2. Стартовое снаряжение
-Сделай выборы в каждой строке:
-- `mace` или `warhammer-if-proficient`
-- `scale-mail` или `leather-armor` или `chain-mail-if-proficient`
-- `light-crossbow-and-20-bolts` или `simple-weapon`
-- `priests-pack` или `explorers-pack`
-
-Дополнительно без выбора:
-- `shield`
-- `holy-symbol`
-
-Формат ответа:
-`equipmentChoices: {...}`
-
-## 3. Заговоры
-Выбери 3 заговора жреца.
-
-Формат ответа:
-`cantrips: [<spell>, <spell>, <spell>]`
-
-## 4. Подготовленные заклинания
-Подготовь количество заклинаний, равное:
-`wisdomModifier + 1`
-
-Формат ответа:
-`preparedSpells: [<spell>, ...]`
-
-## 5. Божественный домен
+## 2. Божественный домен
 Выбери 1 домен.
 
 Базовые варианты PHB:
@@ -55,5 +32,147 @@
 Формат ответа:
 `divineDomain: <slug>`
 
-## 6. Дополнительные выборы домена
-Если домен даёт дополнительные языки, навыки или владения, зафиксируй их отдельными полями.
+## 3a. Дополнительные выборы домена `knowledge`
+Если выбран домен `knowledge`, выбери 2 языка:
+- `common`
+- `dwarvish`
+- `elvish`
+- `giant`
+- `gnomish`
+- `goblin`
+- `halfling`
+- `orc`
+- `abyssal`
+- `celestial`
+- `draconic`
+- `deep-speech`
+- `infernal`
+- `primordial`
+- `sylvan`
+- `undercommon`
+
+Формат ответа:
+`knowledgeDomainLanguages: [<slug>, <slug>]`
+
+Если выбран домен `knowledge`, выбери 2 навыка:
+- `history`
+- `arcana`
+- `nature`
+- `religion`
+
+Формат ответа:
+`knowledgeDomainSkills: [<slug>, <slug>]`
+
+## 3b. Дополнительные выборы домена `nature`
+Если выбран домен `nature`, выбери 1 заговор друида:
+- `druidcraft`
+- `guidance`
+- `mending`
+- `poison-spray`
+- `produce-flame`
+- `resistance`
+- `shillelagh`
+- `thorn-whip`
+
+Формат ответа:
+`natureDomainCantrip: <slug>`
+
+Если выбран домен `nature`, выбери 1 навык:
+- `survival`
+- `nature`
+- `animal handling`
+
+Формат ответа:
+`natureDomainSkill: <slug>`
+
+## 4. Стартовое оружие
+Выбери 1 вариант:
+- `mace`
+- `warhammer` (доступно для доменов `tempest` и `war`)
+
+Формат ответа:
+`startingWeapon: <slug>`
+
+## 5. Стартовая броня
+Выбери 1 вариант:
+- `scale-mail`
+- `leather-armor`
+- `chain-mail` (доступно для доменов `life`, `nature`, `tempest` и `war`)
+
+Формат ответа:
+`startingArmor: <slug>`
+
+## 6. Дополнительное оружие
+Выбери 1 вариант:
+- `light-crossbow`
+- `club`
+- `dagger`
+- `greatclub`
+- `handaxe`
+- `javelin`
+- `light-hammer`
+- `mace`
+- `quarterstaff`
+- `sickle`
+- `spear`
+- `dart`
+- `shortbow`
+- `sling`
+
+Формат ответа:
+`secondaryWeapon: <slug>`
+
+## 7. Набор снаряжения
+Выбери 1 вариант:
+- `priests-pack`
+- `explorers-pack`
+
+Формат ответа:
+`equipmentPack: <slug>`
+
+## 8. Заговоры
+Выбери 3 заговора жреца:
+- `guidance`
+- `light`
+- `mending`
+- `resistance`
+- `sacred-flame`
+- `spare-the-dying`
+- `thaumaturgy`
+
+Формат ответа:
+`cantrips: [<slug>, <slug>, <slug>]`
+
+## 9. Подготовленные заклинания
+Подготовь количество заклинаний, равное:
+`{wisdomModifier} + 1`
+
+Доступные заклинания 1 уровня:
+- `bane`
+- `bless`
+- `command`
+- `create-or-destroy-water`
+- `cure-wounds`
+- `detect-evil-and-good`
+- `detect-magic`
+- `detect-poison-and-disease`
+- `guiding-bolt`
+- `healing-word`
+- `inflict-wounds`
+- `protection-from-evil-and-good`
+- `purify-food-and-drink`
+- `sanctuary`
+- `shield-of-faith`
+- `thunderwave` (доступно для домена `tempest`)
+- `fog-cloud` (доступно для домена `tempest`)
+- `divine-favor` (доступно для домена `war`)
+- `identify` (доступно для домена `knowledge`)
+- `disguise-self` (доступно для домена `trickery`)
+- `charm-person` (доступно для домена `trickery`)
+- `animal-friendship` (доступно для домена `nature`)
+- `speak-with-animals` (доступно для домена `nature`)
+- `burning-hands` (доступно для домена `light`)
+- `faerie-fire` (доступно для домена `light`)
+
+Формат ответа:
+`preparedSpells: [<slug>, ...]`

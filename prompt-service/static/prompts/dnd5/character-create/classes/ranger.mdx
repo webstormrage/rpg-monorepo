@@ -16,27 +16,59 @@
 Формат ответа:
 `skillProficiencies: [<skill>, <skill>, <skill>]`
 
-## 2. Стартовое снаряжение
-Сделай выборы в каждой строке:
-- `scale-mail` или `leather-armor`
-- `two-shortswords` или `two-simple-melee-weapons`
-- `dungeoneers-pack` или `explorers-pack`
-
-Дополнительно без выбора:
-- `longbow-and-20-arrows`
-
-Формат ответа:
-`equipmentChoices: {...}`
-
-## 3. Избранный враг
+## 2. Стартовая броня
 Выбери 1 вариант:
-- один тип существ
-- или две гуманоидные расы
+- `scale-mail`
+- `leather-armor`
 
 Формат ответа:
-`favoredEnemy: <type-or-list>`
+`startingArmor: <slug>`
 
-## 4. Известная местность
+## 3. Оружие ближнего боя
+Выбери 2 простых оружия ближнего боя:
+- `club`
+- `dagger`
+- `greatclub`
+- `handaxe`
+- `javelin`
+- `light-hammer`
+- `mace`
+- `quarterstaff`
+- `sickle`
+- `spear`
+
+Формат ответа:
+`meleeWeapons: [<slug>, <slug>]`
+
+## 4. Набор снаряжения
+Выбери 1 вариант:
+- `dungeoneers-pack`
+- `explorers-pack`
+
+Формат ответа:
+`equipmentPack: <slug>`
+
+## 5. Избранный враг
+Выбери  один тип существ из списка:
+- `aberration`
+- `beast`
+- `celestial`
+- `construct`
+- `dragon`
+- `elemental`
+- `fey`
+- `fiend`
+- `giant`
+- `humanoid`
+- `monstrosity`
+- `ooze`
+- `plant`
+- `undead`
+
+Формат ответа:
+`favoredEnemy: <creature-type-slug-or-humanoid-races-list>`
+
+## 7. Известная местность
 Выбери 1 тип местности:
 - `arctic`
 - `coast`

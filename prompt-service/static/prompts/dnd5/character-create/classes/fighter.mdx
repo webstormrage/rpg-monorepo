@@ -16,17 +16,61 @@
 Формат ответа:
 `skillProficiencies: [<skill>, <skill>]`
 
-## 2. Стартовое снаряжение
-Сделай выборы в каждой строке:
-- `chain-mail` или `leather-armor-longbow-20-arrows`
-- `martial-weapon-and-shield` или `two-martial-weapons`
-- `light-crossbow-and-20-bolts` или `two-handaxes`
-- `dungeoneers-pack` или `explorers-pack`
+## 2. Стартовая броня
+Выбери 1 вариант:
+- `chain-mail`
+- `leather-armor`, `longbow`
 
 Формат ответа:
-`equipmentChoices: {...}`
+`startingArmor: <slug>`
 
-## 3. Боевой стиль
+## 3. Основной набор оружия
+Выбери 2 воинских оружия:
+- `battleaxe`
+- `flail`
+- `glaive`
+- `greataxe`
+- `greatsword`
+- `halberd`
+- `lance`
+- `longsword`
+- `maul`
+- `morningstar`
+- `pike`
+- `rapier`
+- `scimitar`
+- `shortsword`
+- `trident`
+- `war-pick`
+- `warhammer`
+- `whip`
+- `blowgun`
+- `hand-crossbow`
+- `heavy-crossbow`
+- `longbow`
+- `net`
+- `shield`
+
+Формат ответа:
+`primaryWeapons: [<slug>, <slug>]`
+
+## 4. Дополнительное оружие
+Выбери 1 вариант:
+- `light-crossbow`
+- `handaxe`, `handaxe`
+
+Формат ответа:
+`secondaryWeaponSet: <slug>`
+
+## 5. Набор снаряжения
+Выбери 1 вариант:
+- `dungeoneers-pack`
+- `explorers-pack`
+
+Формат ответа:
+`equipmentPack: <slug>`
+
+## 6. Боевой стиль
 Выбери 1 боевой стиль.
 
 Основные варианты:
@@ -36,8 +80,6 @@
 - `great-weapon-fighting`
 - `protection`
 - `two-weapon-fighting`
-
-Если в проекте используются опциональные стили из исходного файла, можно выбрать их вместо базовых.
 
 Формат ответа:
 `fightingStyle: <slug>`

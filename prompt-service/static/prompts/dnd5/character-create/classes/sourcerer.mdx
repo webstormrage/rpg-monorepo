@@ -14,19 +14,43 @@
 Формат ответа:
 `skillProficiencies: [<skill>, <skill>]`
 
-## 2. Стартовое снаряжение
-Сделай выборы в каждой строке:
-- `light-crossbow-and-20-bolts` или `simple-weapon`
-- `component-pouch` или `arcane-focus`
-- `dungeoneers-pack` или `explorers-pack`
-
-Дополнительно без выбора:
-- `two-daggers`
+## 2. Стартовое оружие
+Выбери 1 вариант:
+- `light-crossbow`
+- `club`
+- `dagger`
+- `greatclub`
+- `handaxe`
+- `javelin`
+- `light-hammer`
+- `mace`
+- `quarterstaff`
+- `sickle`
+- `spear`
+- `dart`
+- `shortbow`
+- `sling`
 
 Формат ответа:
-`equipmentChoices: {...}`
+`startingWeapon: <slug>`
 
-## 3. Источник магии
+## 3. Магический фокус или компоненты
+Выбери 1 вариант:
+- `component-pouch`
+- `arcane-focus`
+
+Формат ответа:
+`spellcastingFocus: <slug>`
+
+## 4. Набор снаряжения
+Выбери 1 вариант:
+- `dungeoneers-pack`
+- `explorers-pack`
+
+Формат ответа:
+`equipmentPack: <slug>`
+
+## 5. Источник магии
 Выбери 1 магическое происхождение.
 
 Базовые варианты:
@@ -36,14 +60,57 @@
 Формат ответа:
 `sorcerousOrigin: <slug>`
 
-## 4. Заговоры
-Выбери 4 заговора чародея.
+## 7. Заговоры
+Выбери 4 заговора чародея:
+- `acid-splash`
+- `blade-ward`
+- `chill-touch`
+- `dancing-lights`
+- `fire-bolt`
+- `friends`
+- `light`
+- `mage-hand`
+- `mending`
+- `message`
+- `minor-illusion`
+- `poison-spray`
+- `prestidigitation`
+- `ray-of-frost`
+- `shocking-grasp`
+- `true-strike`
+- `sword-burst`
+- `booming-blade`
+- `green-flame-blade`
+- `lightning-lure`
+- `mind-sliver`
 
 Формат ответа:
-`cantrips: [<spell>, <spell>, <spell>, <spell>]`
+`cantrips: [<slug>, <slug>, <slug>, <slug>]`
 
-## 5. Известные заклинания
-Выбери 2 заклинания 1 уровня из списка чародея.
+## 8. Известные заклинания
+Выбери 2 заклинания 1 уровня из списка чародея:
+- `burning-hands`
+- `charm-person`
+- `chromatic-orb`
+- `color-spray`
+- `comprehend-languages`
+- `detect-magic`
+- `disguise-self`
+- `expeditious-retreat`
+- `false-life`
+- `feather-fall`
+- `fog-cloud`
+- `grease`
+- `jump`
+- `mage-armor`
+- `magic-missile`
+- `ray-of-sickness`
+- `shield`
+- `silent-image`
+- `sleep`
+- `tashas-caustic-brew`
+- `thunderwave`
+- `witch-bolt`
 
 Формат ответа:
-`knownSpells: [<spell>, <spell>]`
+`knownSpells: [<slug>, <slug>]`

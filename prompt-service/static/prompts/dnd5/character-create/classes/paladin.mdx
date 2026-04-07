@@ -14,15 +14,57 @@
 Формат ответа:
 `skillProficiencies: [<skill>, <skill>]`
 
-## 2. Стартовое снаряжение
-Сделай выборы в каждой строке:
-- `martial-weapon-and-shield` или `two-martial-weapons`
-- `javelins-5` или `simple-melee-weapon`
-- `priests-pack` или `explorers-pack`
-
-Дополнительно без выбора:
-- `chain-mail`
-- `holy-symbol`
+## 2. Основной набор оружия
+Выбери 2 воинских оружия:
+- `battleaxe`
+- `flail`
+- `glaive`
+- `greataxe`
+- `greatsword`
+- `halberd`
+- `lance`
+- `longsword`
+- `maul`
+- `morningstar`
+- `pike`
+- `rapier`
+- `scimitar`
+- `shortsword`
+- `trident`
+- `war-pick`
+- `warhammer`
+- `whip`
+- `blowgun`
+- `hand-crossbow`
+- `heavy-crossbow`
+- `longbow`
+- `net`
+- `shield`
 
 Формат ответа:
-`equipmentChoices: {...}`
+`primaryWeapons: [<slug>, <slug>]`
+
+## 3. Дополнительное оружие
+Выбери 1 вариант:
+- `javelin`, `javelin`, `javelin`, `javelin`, `javelin`
+- `club`
+- `dagger`
+- `greatclub`
+- `handaxe`
+- `javelin`
+- `light-hammer`
+- `mace`
+- `quarterstaff`
+- `sickle`
+- `spear`
+
+Формат ответа:
+`secondaryWeapon: <slug>`
+
+## 4. Набор снаряжения
+Выбери 1 вариант:
+- `priests-pack`
+- `explorers-pack`
+
+Формат ответа:
+`equipmentPack: <slug>`

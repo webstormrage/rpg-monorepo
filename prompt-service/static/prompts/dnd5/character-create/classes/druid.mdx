@@ -1,5 +1,9 @@
 # Выборы для druid
 
+{{ifEq wisdomModifier ""}}
+Ошибка: переменная `wisdomModifier` не передана.
+{{/ifEq}}
+
 На 1 уровне для `druid` нужно сделать следующие выборы.
 
 ## 1. Навыки
@@ -16,27 +20,88 @@
 Формат ответа:
 `skillProficiencies: [<skill>, <skill>]`
 
-## 2. Стартовое снаряжение
-Сделай выборы в каждой строке:
-- `wooden-shield` или `simple-weapon`
-- `scimitar` или `simple-melee-weapon`
-- `dungeoneers-pack` или `explorers-pack`
-
-Дополнительно без выбора:
-- `druidic-focus`
+## 2. Защита или простое оружие
+Выбери 1 вариант:
+- `wooden-shield`
+- `club`
+- `dagger`
+- `greatclub`
+- `handaxe`
+- `javelin`
+- `light-hammer`
+- `mace`
+- `quarterstaff`
+- `sickle`
+- `spear`
+- `light-crossbow`
+- `dart`
+- `shortbow`
+- `sling`
 
 Формат ответа:
-`equipmentChoices: {...}`
+`defenseOrWeapon: <slug>`
 
-## 3. Заговоры
-Выбери 2 заговора друида.
+## 3. Стартовое оружие
+Выбери 1 вариант:
+- `scimitar`
+- `club`
+- `dagger`
+- `greatclub`
+- `handaxe`
+- `javelin`
+- `light-hammer`
+- `mace`
+- `quarterstaff`
+- `sickle`
+- `spear`
 
 Формат ответа:
-`cantrips: [<spell>, <spell>]`
+`startingWeapon: <slug>`
 
-## 4. Подготовленные заклинания
+## 4. Набор снаряжения
+Выбери 1 вариант:
+- `dungeoneers-pack`
+- `explorers-pack`
+
+Формат ответа:
+`equipmentPack: <slug>`
+
+## 5. Заговоры
+Выбери 2 заговора друида:
+- `druidcraft`
+- `guidance`
+- `mending`
+- `poison-spray`
+- `produce-flame`
+- `resistance`
+- `shillelagh`
+- `thorn-whip`
+
+Формат ответа:
+`cantrips: [<slug>, <slug>]`
+
+## 6. Подготовленные заклинания
 Подготовь количество заклинаний, равное:
-`wisdomModifier + 1`
+`{wisdomModifier} + 1`
+
+Доступные заклинания 1 уровня:
+- `animal-friendship`
+- `charm-person`
+- `create-or-destroy-water`
+- `cure-wounds`
+- `detect-magic`
+- `detect-poison-and-disease`
+- `entangle`
+- `faerie-fire`
+- `fog-cloud`
+- `goodberry`
+- `healing-word`
+- `jump`
+- `longstrider`
+- `purify-food-and-drink`
+- `protection-from-evil-and-good`
+- `speak-with-animals`
+- `thunderwave`
 
 Формат ответа:
-`preparedSpells: [<spell>, ...]`
+`preparedSpells: [<slug>, ...]`

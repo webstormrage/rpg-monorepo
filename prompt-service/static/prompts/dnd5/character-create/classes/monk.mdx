@@ -3,12 +3,41 @@
 На 1 уровне для `monk` нужно сделать следующие выборы.
 
 ## 1. Инструмент
-Выбери 1 вариант:
-- `artisans-tools`
-- `musical-instrument`
+Выбери 1 инструмент ремесленника или 1 музыкальный инструмент.
+
+Инструменты ремесленника:
+- `alchemists-supplies`
+- `brewers-supplies`
+- `calligraphers-supplies`
+- `carpenters-tools`
+- `cartographers-tools`
+- `cobblers-tools`
+- `cooks-utensils`
+- `glassblowers-tools`
+- `jewelers-tools`
+- `leatherworkers-tools`
+- `masons-tools`
+- `painters-supplies`
+- `potters-tools`
+- `smiths-tools`
+- `tinkers-tools`
+- `weavers-tools`
+- `woodcarvers-tools`
+
+Музыкальные инструменты:
+- `bagpipes`
+- `drum`
+- `dulcimer`
+- `flute`
+- `horn`
+- `lute`
+- `lyre`
+- `pan-flute`
+- `shawm`
+- `viol`
 
 Формат ответа:
-`toolChoice: <type>`
+`toolChoice: <slug>`
 
 ## 2. Навыки
 Выбери 2 навыка из списка:
@@ -22,13 +51,19 @@
 Формат ответа:
 `skillProficiencies: [<skill>, <skill>]`
 
-## 3. Стартовое снаряжение
-Сделай выборы в каждой строке:
-- `shortsword` или `simple-weapon`
-- `dungeoneers-pack` или `explorers-pack`
-
-Дополнительно без выбора:
-- `10-darts`
+## 3. Стартовое оружие
+Выбери 1 вариант:
+- `shortsword`
+- `simple-weapon`
 
 Формат ответа:
-`equipmentChoices: {...}`
+`startingWeapon: <slug>`
+
+## 4. Набор снаряжения
+Выбери 1 вариант:
+- `dungeoneers-pack`
+- `explorers-pack`
+
+Формат ответа:
+`equipmentPack: <slug>`
+
